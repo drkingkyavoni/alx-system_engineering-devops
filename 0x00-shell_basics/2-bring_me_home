@@ -1,0 +1,4 @@
+#!/bin/bash
+USER=$(whoami)
+HOME=$(eval "echo ~$USER")
+cd $HOME
