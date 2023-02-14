@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1u .
+ls -rv . | head
