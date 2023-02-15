@@ -1,0 +1,3 @@
+#!/bin/bash
+#find ./ -type f -empty -execdir echo {} ";" | tr -d "./"
+ls -1R | find -empty | tr -d "./"
