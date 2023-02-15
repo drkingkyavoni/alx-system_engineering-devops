@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "obase=$bestchol; $(( $water#$WATER + $stir#$STIR ))" | bc
+printf "%$bestchol"  $(( $water#$WATER + $stir#$STIR ))
